@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* CABEÇALHO */
+
+.cabecalho{
+    background-color: var(--color-2);
+    height: 100px;
+}
+
+.logo-name{
+    color: var(--color-0);
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    .color-name{
+        color: var(--color-6);
+    }
+}
+
+.menu{
+    color: var(--color-0);
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 45%;
+    gap: 30px;
+}
+
+/* PRINCIPAL */
+
+.corpo-principal{
+    background-color: var(--color-3);
+}
