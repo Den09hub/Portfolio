@@ -3,7 +3,7 @@
     padding: 0;
     top: 0;
     font-family: "Poppins", serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -20,24 +20,67 @@
     gap: 10px;
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 50px;
+    cursor: pointer;
 
     .color-name{
         color: var(--color-6);
     }
 }
 
-.menu{
+.nav-list{
     color: var(--color-0);
     display: flex;
     position: absolute;
-    top: 35px;
-    left: 45%;
-    gap: 30px;
+    top: 33px;
+    left: 52%;
+    gap: 35px;
+    list-style-type: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav-item-home{
+    text-decoration: underline;
+    text-decoration-color: var(--color-6);
+    text-underline-offset: 5px;
+}
+
+.destaque-contato{
+    color: var(--color-0);
+    font-weight: 400;
+    background-color: var(--color-6);
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
 }
 
 /* PRINCIPAL */
 
-.corpo-principal{
+body{
     background-color: var(--color-3);
+}
+
+.titulo-impactante{
+    color: var(--color-0);
+    width: 400px;
+    position: absolute;
+    top: 42%;
+    left: 10%;
+}
+
+.img-denyel{
+    display: flex;
+    justify-content: center;
+}
+
+.img-denyel img{
+    width: 25%;
+    height: 25%;
 }
