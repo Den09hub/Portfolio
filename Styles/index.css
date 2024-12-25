@@ -52,13 +52,17 @@
     background-color: var(--color-6);
     width: 130px;
     height: 40px;
-    border-radius: 100px;
+    border-radius: 10px;
     position: absolute;
     top: 30px;
     right: 80px;
     font-size: 1.2rem;
     cursor: pointer;
     border: none;
+}
+
+.destaque-contato:hover{
+    background-color: var(--color-5);
 }
 
 /* PRINCIPAL */
@@ -71,16 +75,44 @@ body{
     color: var(--color-0);
     width: 400px;
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 10%;
+}
+
+.titulo-impactante h2{
+    font-size: 2rem;
+    position: absolute;
+    left: 5%;
+}
+
+.linha-inicial-inferior{
+    background-color: var(--color-6);
+    justify-content: center;
+    height: 2px;
+    transform: translateY(225px);
+}
+
+.shape{
+    background-color: var(--color-6);
+    width: 110%;
+    height: 120%;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+    border-radius: 60% 100% 60% 100%;
 }
 
 .img-denyel{
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 27%;
+    left: 60%;
 }
 
 .img-denyel img{
-    width: 25%;
-    height: 25%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    z-index: 1;
 }
