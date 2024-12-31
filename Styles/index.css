@@ -38,6 +38,7 @@
     list-style-type: none;
     font-size: 1.2rem;
     cursor: pointer;
+    z-index: 1;
 }
 
 .nav-item-home{
@@ -46,23 +47,11 @@
     text-underline-offset: 5px;
 }
 
-.destaque-contato{
+.nav-item-destaque{
     color: var(--color-0);
     font-weight: 400;
-    background-color: var(--color-6);
-    width: 130px;
-    height: 40px;
-    border-radius: 10px;
-    position: absolute;
-    top: 30px;
-    right: 80px;
     font-size: 1.2rem;
     cursor: pointer;
-    border: none;
-}
-
-.destaque-contato:hover{
-    background-color: var(--color-5);
 }
 
 /* PRINCIPAL */
