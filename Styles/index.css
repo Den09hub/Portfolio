@@ -49,9 +49,19 @@
 
 .nav-item-destaque{
     color: var(--color-0);
+    background-color: var(--color-6);
+    padding: 10px;
     font-weight: 400;
     font-size: 1.2rem;
     cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: -8px;
+    left: 430px;
+}
+
+.nav-item-destaque:hover{
+    background-color: var(--color-5);
 }
 
 /* PRINCIPAL */
