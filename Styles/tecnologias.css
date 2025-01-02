@@ -1,0 +1,94 @@
+
+/* TABELAS */
+
+.tabela-codar{
+    width: 25%;
+    height: 55%;
+    background-color: var(--color-4);
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.tabela-complementar{
+    width: 25%;
+    height: 55%;
+    background-color: var(--color-4);
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    border-radius: 10px;
+}
+
+.divisa-tabela{
+    width: 2px;
+    height: 415px;
+    background-color: var(--color-6);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.titulo-codar{
+    color: var(--color-0);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.titulo-complementar{
+    color: var(--color-0);
+    position: absolute;
+    top: 25%;
+    right: 18%;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.lista-codar{
+    color: var(--color-0);
+    position: absolute;
+    top: 40%;
+    left: 13%;
+}
+
+.lista-complementar{
+    color: var(--color-0);
+    position: absolute;
+    top: 40%;
+    right: 28%;
+}
+
+/* PONTOS-COLOR */
+
+.point-python::marker{
+    color: #191CDE;
+}
+
+.point-javascript::marker{
+    color: #D6BA1C;
+}
+
+.point-html::marker{
+    color: #D44C23;
+}
+
+.point-css::marker{
+    color: #24A4D2;
+}
+
+.point-figma::marker{
+    color: #DB1F1F;
+}
+
+.point-github::marker{
+    color: #781FD8;
+}
+
+.point-mysql::marker{
+    color: #215BD9;
+}
+

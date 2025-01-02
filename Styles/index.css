@@ -63,8 +63,13 @@
     text-decoration: none;
 }
 
-.link-item:focus{
+.link-item:hover{
     color: var(--color-6);
+}
+
+.link-item-home{
+    color: var(--color-0);
+    text-decoration: none;
 }
 
 /* PRINCIPAL */
