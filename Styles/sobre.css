@@ -1,0 +1,18 @@
+.texto-sobre{
+    color: var(--color-0);
+    width: 300px;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+}
+
+.texto-sobre h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.linha-sobre{
+    background-color: var(--color-6);
+    height: 2px;
+    transform: translateY(25px);
+}
