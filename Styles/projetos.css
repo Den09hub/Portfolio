@@ -1,0 +1,70 @@
+.titulo-projetos{
+    color: var(--color-0);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.img-projeto img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.bloco-projeto{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+
+/* LINHAS DE SEPARAMENTO */
+
+.linha-projeto-superior{
+    background-color: var(--color-6);
+    width: 90%;
+    height: 1px;
+    transform: translateY(-50px);
+}
+
+.linha-projeto-inferior{
+    background-color: var(--color-6);
+    width: 90%;
+    height: 1px;
+    transform: translateY(50px);
+}
+
+/* INFORMAÇÕES DO PROJETO */
+
+.informacoes-projeto{
+    color: var(--color-0);
+    position: absolute;
+    left: 45%;
+}
+
+.informacoes-projeto h2{
+    font-weight: 300;
+}
+
+/* FERRAMENTAS USADAS NO PROJETO */
+
+.lista-projeto{
+    color: var(--color-0);
+    position: absolute;
+    top: 85%;
+    left: 570px;
+    display: flex;
+    gap: 30px;
+}
+
+.use-projeto-html::marker{
+    color: #D44C23;
+}
+
+.use-projeto-css::marker{
+    color: #24A4D2;
+}
+
+.use-projeto-javascript::marker{
+    color: #D6BA1C;
+}

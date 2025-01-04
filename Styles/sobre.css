@@ -13,6 +13,6 @@
 
 .linha-sobre{
     background-color: var(--color-6);
-    height: 2px;
+    height: 1px;
     transform: translateY(25px);
 }
