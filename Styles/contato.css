@@ -1,0 +1,62 @@
+.bloco-contato{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.bloco-contato h2{
+    color: var(--color-0);
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.linha-contato{
+    background-color: var(--color-6);
+    width: 300%;
+    height: 1px;
+    transform: translateY(25px);
+}
+
+.email-contato img{
+    position: absolute;
+    top: 80px;
+    width: 30%;
+}
+
+.email-contato h3{
+    color: var(--color-0);
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+.linkedin-contato img{
+    position: absolute;
+    top: 120px;
+    width: 30%;
+}
+
+.linkedin-contato a{
+    white-space: nowrap;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    font-size: 1.2rem;
+    color: var(--color-6);
+}
+
+.github-contato img{
+    position: absolute;
+    top: 155px;
+    left: -8px;
+    width: 45%;
+}
+
+.github-contato a{
+    color: var(--color-6);
+    white-space: nowrap;
+    position: absolute;
+    top: 162px;
+    left: 40px;
+    font-size: 1.2rem;
+}
