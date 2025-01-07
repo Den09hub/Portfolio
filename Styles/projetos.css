@@ -46,6 +46,20 @@
     font-weight: 300;
 }
 
+.pagina-projeto{
+    position: absolute;
+    top: 250px;
+    right: 125px;
+}
+
+.direcao-projeto{
+    color: var(--color-0);
+}
+
+.direcao-projeto:hover{
+    color: var(--color-5);
+}
+
 /* FERRAMENTAS USADAS NO PROJETO */
 
 .lista-projeto{

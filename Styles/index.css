@@ -40,21 +40,21 @@
     z-index: 1;
 }
 
-.nav-item-destaque{
+.btn-contato{
     background-color: var(--color-6);
-    padding: 10px;
-    cursor: pointer;
+    color: var(--color-0);
     border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
     position: absolute;
     top: -8px;
     left: 430px;
+    border: none;
 }
 
-.nav-item-destaque a{
-    font-weight: 400;
-}
-
-.nav-item-destaque:hover{
+.btn-contato:hover{
     background-color: var(--color-5);
 }
 
