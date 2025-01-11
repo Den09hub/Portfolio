@@ -20,7 +20,7 @@
     gap: 10px;
     position: absolute;
     top: 20px;
-    left: 50px;
+    left: 5%;
     cursor: pointer;
 
     .color-name{
@@ -32,7 +32,7 @@
     display: flex;
     position: absolute;
     top: 33px;
-    left: 52%;
+    right: 12%;
     gap: 35px;
     list-style-type: none;
     font-size: 1.2rem;
@@ -142,4 +142,9 @@ body{
     }
 }
 
-/* @media screen and (max-width: ) */
+/* @media screen and (max-width: 1100px){
+
+    .menu-nav{
+        display: none;
+    }
+} */

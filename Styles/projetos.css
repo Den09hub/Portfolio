@@ -7,66 +7,60 @@
     font-weight: 300;
 }
 
-.img-projeto img{
+.img-projeto-lanchonete img{
     width: 40%;
     border-radius: 10px;
 }
 
-.bloco-projeto{
+.bloco-projeto-lanchonete{
     position: absolute;
     top: 43%;
-    left: 10%;
+    left: 13%;
 }
 
 /* LINHAS DE SEPARAMENTO */
 
 .linha-projeto-superior{
     background-color: var(--color-6);
-    width: 90%;
+    width: 80%;
     height: 1px;
-    transform: translateY(-50px);
-}
-
-.linha-projeto-inferior{
-    background-color: var(--color-6);
-    width: 90%;
-    height: 1px;
-    transform: translateY(50px);
+    position: absolute;
+    top: 35%;
+    left: 10%;
 }
 
 /* INFORMAÇÕES DO PROJETO */
 
-.informacoes-projeto{
+.informacoes-projeto-lanchonete{
     color: var(--color-0);
     position: absolute;
     left: 45%;
 }
 
-.informacoes-projeto h2{
+.informacoes-projeto-lanchonete h2{
     font-weight: 300;
 }
 
-.pagina-projeto{
+.pagina-projeto-lanchonete{
     position: absolute;
-    top: 250px;
-    right: 125px;
+    top: 205px;
+    right: 16%;
+    display: flex;
+    gap: 160px;
 }
 
-.direcao-projeto{
+.direcao-projeto-lanchonete{
     color: var(--color-0);
 }
 
-.direcao-projeto:hover{
+.direcao-projeto-lanchonete:hover{
     color: var(--color-5);
 }
 
 /* FERRAMENTAS USADAS NO PROJETO */
 
-.lista-projeto{
+.lista-projeto-lanchonete{
     color: var(--color-0);
-    position: absolute;
-    top: 85%;
-    left: 570px;
     display: flex;
     gap: 30px;
 }
@@ -81,4 +75,16 @@
 
 .use-projeto-javascript::marker{
     color: #D6BA1C;
+}
+
+/* BLOCO DE PROJETOS */
+
+.shape-lanchonete{
+    background-color: var(--color-2);
+    width: 80%;
+    height: 44%;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
 }
