@@ -14,7 +14,18 @@
 
 .bloco-projeto-lanchonete{
     position: absolute;
-    top: 43%;
+    top: 44%;
+    left: 13%;
+}
+
+.img-projeto-carros img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.bloco-projeto-carros{
+    position: absolute;
+    top: 93%;
     left: 13%;
 }
 
@@ -57,6 +68,32 @@
     color: var(--color-5);
 }
 
+.informacoes-projeto-carros{
+    color: var(--color-0);
+    position: absolute;
+    left: 45%;
+}
+
+.informacoes-projeto-carros h2{
+    font-weight: 300;
+}
+
+.pagina-projeto-carros{
+    position: absolute;
+    top: 205px;
+    right: 16%;
+    display: flex;
+    gap: 160px;
+}
+
+.direcao-projeto-carros{
+    color: var(--color-0);
+}
+
+.direcao-projeto-carros:hover{
+    color: var(--color-5);
+}
+
 /* FERRAMENTAS USADAS NO PROJETO */
 
 .lista-projeto-lanchonete{
@@ -77,6 +114,12 @@
     color: #D6BA1C;
 }
 
+.lista-projeto-carros{
+    color: var(--color-0);
+    display: flex;
+    gap: 30px;
+}
+
 /* BLOCO DE PROJETOS */
 
 .shape-lanchonete{
@@ -86,5 +129,15 @@
     border-radius: 10px;
     position: absolute;
     top: 40%;
+    left: 10%;
+}
+
+.shape-carros{
+    background-color: var(--color-2);
+    width: 80%;
+    height: 44%;
+    border-radius: 10px;
+    position: absolute;
+    top: 88%;
     left: 10%;
 }
