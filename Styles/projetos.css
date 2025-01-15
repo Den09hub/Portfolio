@@ -1,143 +1,151 @@
-.titulo-projetos{
-    color: var(--color-0);
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    font-size: 1.6rem;
-    font-weight: 300;
+.titulo-projetos {
+  color: var(--color-0);
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
-.img-projeto-lanchonete img{
-    width: 40%;
-    border-radius: 10px;
+.img-projeto-lanchonete img {
+  width: 40%;
+  border-radius: 10px;
 }
 
-.bloco-projeto-lanchonete{
-    position: absolute;
-    top: 44%;
-    left: 13%;
+.bloco-projeto-lanchonete {
+  position: absolute;
+  top: 44%;
+  left: 13%;
 }
 
-.img-projeto-carros img{
-    width: 40%;
-    border-radius: 10px;
+.img-projeto-carros img {
+  width: 40%;
+  border-radius: 10px;
 }
 
-.bloco-projeto-carros{
-    position: absolute;
-    top: 93%;
-    left: 13%;
+.bloco-projeto-carros {
+  position: absolute;
+  top: 93%;
+  left: 13%;
 }
 
 /* LINHAS DE SEPARAMENTO */
 
-.linha-projeto-superior{
-    background-color: var(--color-6);
-    width: 80%;
-    height: 1px;
-    position: absolute;
-    top: 35%;
-    left: 10%;
+.linha-projeto-superior {
+  background-color: var(--color-6);
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  top: 35%;
+  left: 10%;
 }
 
 /* INFORMAÇÕES DO PROJETO */
 
-.informacoes-projeto-lanchonete{
-    color: var(--color-0);
-    position: absolute;
-    left: 45%;
+.informacoes-projeto-lanchonete {
+  color: var(--color-0);
+  position: absolute;
+  left: 45%;
 }
 
-.informacoes-projeto-lanchonete h2{
-    font-weight: 300;
+.informacoes-projeto-lanchonete h2 {
+  font-weight: 300;
 }
 
-.pagina-projeto-lanchonete{
-    position: absolute;
-    top: 205px;
-    right: 16%;
-    display: flex;
-    gap: 160px;
+.informacoes-projeto-lanchonete h3 {
+  font-size: 1.1rem;
 }
 
-.direcao-projeto-lanchonete{
-    color: var(--color-0);
+.pagina-projeto-lanchonete {
+  position: absolute;
+  top: 200px;
+  right: 16%;
+  display: flex;
+  gap: 160px;
 }
 
-.direcao-projeto-lanchonete:hover{
-    color: var(--color-5);
+.direcao-projeto-lanchonete {
+  color: var(--color-0);
 }
 
-.informacoes-projeto-carros{
-    color: var(--color-0);
-    position: absolute;
-    left: 45%;
+.direcao-projeto-lanchonete:hover {
+  color: var(--color-5);
 }
 
-.informacoes-projeto-carros h2{
-    font-weight: 300;
+.informacoes-projeto-carros {
+  color: var(--color-0);
+  position: absolute;
+  left: 45%;
 }
 
-.pagina-projeto-carros{
-    position: absolute;
-    top: 205px;
-    right: 16%;
-    display: flex;
-    gap: 160px;
+.informacoes-projeto-carros h2 {
+  font-weight: 300;
 }
 
-.direcao-projeto-carros{
-    color: var(--color-0);
+.informacoes-projeto-carros h3 {
+  font-size: 1.1rem;
 }
 
-.direcao-projeto-carros:hover{
-    color: var(--color-5);
+.pagina-projeto-carros {
+  position: absolute;
+  top: 200px;
+  right: 16%;
+  display: flex;
+  gap: 160px;
+}
+
+.direcao-projeto-carros {
+  color: var(--color-0);
+}
+
+.direcao-projeto-carros:hover {
+  color: var(--color-5);
 }
 
 /* FERRAMENTAS USADAS NO PROJETO */
 
-.lista-projeto-lanchonete{
-    color: var(--color-0);
-    display: flex;
-    gap: 30px;
+.lista-projeto-lanchonete {
+  color: var(--color-0);
+  display: flex;
+  gap: 30px;
 }
 
-.use-projeto-html::marker{
-    color: #D44C23;
+.use-projeto-html::marker {
+  color: #d44c23;
 }
 
-.use-projeto-css::marker{
-    color: #24A4D2;
+.use-projeto-css::marker {
+  color: #24a4d2;
 }
 
-.use-projeto-javascript::marker{
-    color: #D6BA1C;
+.use-projeto-javascript::marker {
+  color: #d6ba1c;
 }
 
-.lista-projeto-carros{
-    color: var(--color-0);
-    display: flex;
-    gap: 30px;
+.lista-projeto-carros {
+  color: var(--color-0);
+  display: flex;
+  gap: 30px;
 }
 
 /* BLOCO DE PROJETOS */
 
-.shape-lanchonete{
-    background-color: var(--color-2);
-    width: 80%;
-    height: 44%;
-    border-radius: 10px;
-    position: absolute;
-    top: 40%;
-    left: 10%;
+.shape-lanchonete {
+  background-color: var(--color-2);
+  width: 80%;
+  height: 43%;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
 }
 
-.shape-carros{
-    background-color: var(--color-2);
-    width: 80%;
-    height: 44%;
-    border-radius: 10px;
-    position: absolute;
-    top: 88%;
-    left: 10%;
+.shape-carros {
+  background-color: var(--color-2);
+  width: 80%;
+  height: 43%;
+  border-radius: 10px;
+  position: absolute;
+  top: 88%;
+  left: 10%;
 }
