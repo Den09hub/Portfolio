@@ -142,6 +142,8 @@ body {
   }
 }
 
+/* Responsividade */
+
 @media screen and (max-width: 1160px) {
   .pagina-projeto-lanchonete {
     position: absolute;
@@ -159,17 +161,33 @@ body {
     position: absolute;
     left: 52%;
   }
+  .informacoes-projeto-lanchonete h3{
+    flex-wrap: wrap;
+    
+  }
 }
 
 @media screen and (max-width: 900px) {
   .cabecalho {
-    height: 150px;
+    height: 140px;
   }
   .menu-nav {
     position: absolute;
     top: 7%;
     left: 55%;
   }
+}
+
+@media screen and (max-width: 850px) {
+  .menu-nav {
+    display: none;
+  }
+}
+
+/* Parte Mobile */
+
+.mobile-btn, .mobile-menu{
+  display: none;
 }
 
 @media screen and (max-width: 850px) {
