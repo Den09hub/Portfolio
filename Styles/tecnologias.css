@@ -1,94 +1,92 @@
-
 /* TABELAS */
 
-.tabela-codar{
-    width: 25%;
-    height: 55%;
-    background-color: var(--color-4);
-    position: absolute;
-    top: 35%;
-    left: 12%;
-    border-radius: 10px;
+.tabela-codar {
+  width: 25%;
+  height: 55%;
+  background-color: var(--color-4);
+  position: absolute;
+  top: 35%;
+  left: 12%;
+  border-radius: 10px;
 }
 
-.tabela-complementar{
-    width: 25%;
-    height: 55%;
-    background-color: var(--color-4);
-    position: absolute;
-    top: 35%;
-    right: 12%;
-    border-radius: 10px;
+.tabela-complementar {
+  width: 25%;
+  height: 55%;
+  background-color: var(--color-4);
+  position: absolute;
+  top: 35%;
+  right: 12%;
+  border-radius: 10px;
 }
 
-.divisa-tabela{
-    width: 1px;
-    height: 300px;
-    background-color: var(--color-6);
-    position: absolute;
-    top: 39%;
-    left: 50%;
+.divisa-tabela {
+  width: 1px;
+  height: 310px;
+  background-color: var(--color-6);
+  position: absolute;
+  top: 39%;
+  left: 50%;
 }
 
-.titulo-codar{
-    color: var(--color-0);
-    position: absolute;
-    top: 25%;
-    left: 12%;
-    font-size: 1.6rem;
-    font-weight: 300;
+.titulo-codar {
+  color: var(--color-0);
+  position: absolute;
+  top: 25%;
+  left: 12.5%;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
-.titulo-complementar{
-    color: var(--color-0);
-    position: absolute;
-    top: 25%;
-    right: 20%;
-    font-size: 1.6rem;
-    font-weight: 300;
+.titulo-complementar {
+  color: var(--color-0);
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
-.lista-codar{
-    color: var(--color-0);
-    position: absolute;
-    top: 40%;
-    left: 15%;
+.lista-codar {
+  color: var(--color-0);
+  position: absolute;
+  top: 40%;
+  left: 15%;
 }
 
-.lista-complementar{
-    color: var(--color-0);
-    position: absolute;
-    top: 40%;
-    right: 30%;
+.lista-complementar {
+  color: var(--color-0);
+  position: absolute;
+  top: 40%;
+  right: 30%;
 }
 
 /* PONTOS-COLOR */
 
-.point-python::marker{
-    color: #191CDE;
+.point-python::marker {
+  color: #191cde;
 }
 
-.point-javascript::marker{
-    color: #D6BA1C;
+.point-javascript::marker {
+  color: #d6ba1c;
 }
 
-.point-html::marker{
-    color: #D44C23;
+.point-html::marker {
+  color: #d44c23;
 }
 
-.point-css::marker{
-    color: #24A4D2;
+.point-css::marker {
+  color: #24a4d2;
 }
 
-.point-figma::marker{
-    color: #DB1F1F;
+.point-figma::marker {
+  color: #db1f1f;
 }
 
-.point-github::marker{
-    color: #781FD8;
+.point-github::marker {
+  color: #781fd8;
 }
 
-.point-mysql::marker{
-    color: #215BD9;
+.point-mysql::marker {
+  color: #215bd9;
 }
-

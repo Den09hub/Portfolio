@@ -143,6 +143,36 @@ body {
 }
 
 @media screen and (max-width: 1160px) {
+  .pagina-projeto-lanchonete {
+    position: absolute;
+    left: 2%;
+  }
+  .pagina-projeto-carros {
+    position: absolute;
+    left: 2%;
+  }
+  .pagina-projeto-lanchonete a {
+    position: absolute;
+    left: 52%;
+  }
+  .pagina-projeto-carros a {
+    position: absolute;
+    left: 52%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cabecalho {
+    height: 150px;
+  }
+  .menu-nav {
+    position: absolute;
+    top: 7%;
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 850px) {
   .menu-nav {
     display: none;
   }
