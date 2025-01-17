@@ -161,9 +161,8 @@ body {
     position: absolute;
     left: 52%;
   }
-  .informacoes-projeto-lanchonete h3{
+  .informacoes-projeto-lanchonete h3 {
     flex-wrap: wrap;
-    
   }
 }
 
@@ -185,13 +184,3 @@ body {
 }
 
 /* Parte Mobile */
-
-.mobile-btn, .mobile-menu{
-  display: none;
-}
-
-@media screen and (max-width: 850px) {
-  .menu-nav {
-    display: none;
-  }
-}
