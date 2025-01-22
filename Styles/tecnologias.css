@@ -10,7 +10,7 @@
   border-radius: 10px;
 }
 
-.tabela-complementar {
+.tabela-relacionados {
   width: 25%;
   height: 55%;
   background-color: var(--color-4);
@@ -22,7 +22,7 @@
 
 .divisa-tabela {
   width: 1px;
-  height: 310px;
+  height: 300px;
   background-color: var(--color-6);
   position: absolute;
   top: 39%;
@@ -38,11 +38,11 @@
   font-weight: 300;
 }
 
-.titulo-complementar {
+.titulo-relacionados {
   color: var(--color-0);
   position: absolute;
   top: 25%;
-  right: 20%;
+  right: 23.5%;
   font-size: 1.6rem;
   font-weight: 300;
 }
@@ -54,7 +54,7 @@
   left: 15%;
 }
 
-.lista-complementar {
+.lista-relacionados {
   color: var(--color-0);
   position: absolute;
   top: 40%;
@@ -65,6 +65,14 @@
 
 .point-python::marker {
   color: #191cde;
+}
+
+.point-php::marker {
+  color: #591c9b;
+}
+
+.point-mysql::marker {
+  color: #215bd9;
 }
 
 .point-javascript::marker {
@@ -85,8 +93,4 @@
 
 .point-github::marker {
   color: #781fd8;
-}
-
-.point-mysql::marker {
-  color: #215bd9;
 }
