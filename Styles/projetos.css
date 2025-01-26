@@ -29,6 +29,17 @@
   left: 12%;
 }
 
+.img-projeto-games img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.bloco-projeto-games {
+  position: absolute;
+  top: 139%;
+  left: 12%;
+}
+
 /* LINHAS DE SEPARAMENTO */
 
 .linha-projeto-superior {
@@ -102,6 +113,36 @@
   color: var(--color-5);
 }
 
+.informacoes-projeto-games {
+  color: var(--color-0);
+  position: absolute;
+  left: 45%;
+}
+
+.informacoes-projeto-games h2 {
+  font-weight: 300;
+}
+
+.informacoes-projeto-games h3 {
+  font-size: 1.3vw;
+}
+
+.pagina-projeto-games {
+  position: absolute;
+  top: 200px;
+  right: 16%;
+  display: flex;
+  gap: 160px;
+}
+
+.direcao-projeto-games {
+  color: var(--color-0);
+}
+
+.direcao-projeto-games:hover {
+  color: var(--color-5);
+}
+
 /* FERRAMENTAS USADAS NO PROJETO */
 
 .lista-projeto-lanchonete {
@@ -128,6 +169,12 @@
   gap: 30px;
 }
 
+.lista-projeto-games {
+  color: var(--color-0);
+  display: flex;
+  gap: 30px;
+}
+
 /* BLOCO DE PROJETOS */
 
 .shape-lanchonete {
@@ -147,6 +194,16 @@
   border-radius: 10px;
   position: absolute;
   top: 88%;
+  left: 10%;
+}
+
+.shape-games {
+  background-color: var(--color-2);
+  width: 80%;
+  height: 40%;
+  border-radius: 10px;
+  position: absolute;
+  top: 136%;
   left: 10%;
 }
 
