@@ -1,3 +1,14 @@
+/* CORPO DA PÁGINA PROJETOS PERSONALIZADO -> */
+
+.body-projetos{
+  background-color: var(--color-3);
+  display: flex;
+  flex-direction: column;
+  min-height: 180%;
+}
+
+/* FECHAMENTO <- */
+
 .titulo-projetos {
   color: var(--color-0);
   position: absolute;
@@ -5,39 +16,6 @@
   left: 10%;
   font-size: 1.6rem;
   font-weight: 300;
-}
-
-.img-projeto-lanchonete img {
-  width: 40%;
-  border-radius: 10px;
-}
-
-.bloco-projeto-lanchonete {
-  position: absolute;
-  top: 43%;
-  left: 12%;
-}
-
-.img-projeto-carros img {
-  width: 40%;
-  border-radius: 10px;
-}
-
-.bloco-projeto-carros {
-  position: absolute;
-  top: 89%;
-  left: 12%;
-}
-
-.img-projeto-games img {
-  width: 40%;
-  border-radius: 10px;
-}
-
-.bloco-projeto-games {
-  position: absolute;
-  top: 135%;
-  left: 12%;
 }
 
 /* LINHAS DE SEPARAMENTO */
@@ -51,7 +29,18 @@
   left: 10%;
 }
 
-/* INFORMAÇÕES DO PROJETO */
+/* PROJETO LANCHONETE */
+
+.img-projeto-lanchonete img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.bloco-projeto-lanchonete {
+  position: absolute;
+  top: 43%;
+  left: 12%;
+}
 
 .informacoes-projeto-lanchonete {
   color: var(--color-0);
@@ -81,6 +70,29 @@
 
 .direcao-projeto-lanchonete:hover {
   color: var(--color-5);
+}
+
+.shape-lanchonete {
+  background-color: var(--color-2);
+  width: 80%;
+  height: 41%;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+/* PROJETO FP-SELLECTION (CARROS) */
+
+.img-projeto-carros img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.bloco-projeto-carros {
+  position: absolute;
+  top: 89%;
+  left: 12%;
 }
 
 .informacoes-projeto-carros {
@@ -113,6 +125,29 @@
   color: var(--color-5);
 }
 
+.shape-carros {
+  background-color: var(--color-2);
+  width: 80%;
+  height: 41%;
+  border-radius: 10px;
+  position: absolute;
+  top: 86%;
+  left: 10%;
+}
+
+/* PROJETO GAMER VOUCHER */
+
+.img-projeto-games img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.bloco-projeto-games {
+  position: absolute;
+  top: 135%;
+  left: 12%;
+}
+
 .informacoes-projeto-games {
   color: var(--color-0);
   position: absolute;
@@ -141,6 +176,16 @@
 
 .direcao-projeto-games:hover {
   color: var(--color-5);
+}
+
+.shape-games {
+  background-color: var(--color-2);
+  width: 80%;
+  height: 40%;
+  border-radius: 10px;
+  position: absolute;
+  top: 132%;
+  left: 10%;
 }
 
 /* FERRAMENTAS USADAS NO PROJETO */
@@ -174,37 +219,3 @@
   display: flex;
   gap: 30px;
 }
-
-/* BLOCO DE PROJETOS */
-
-.shape-lanchonete {
-  background-color: var(--color-2);
-  width: 80%;
-  height: 41%;
-  border-radius: 10px;
-  position: absolute;
-  top: 40%;
-  left: 10%;
-}
-
-.shape-carros {
-  background-color: var(--color-2);
-  width: 80%;
-  height: 41%;
-  border-radius: 10px;
-  position: absolute;
-  top: 86%;
-  left: 10%;
-}
-
-.shape-games {
-  background-color: var(--color-2);
-  width: 80%;
-  height: 40%;
-  border-radius: 10px;
-  position: absolute;
-  top: 132%;
-  left: 10%;
-}
-
-/* RODAPÉ */
