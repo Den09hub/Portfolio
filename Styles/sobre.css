@@ -5,7 +5,7 @@
     color: var(--color-0);
     width: 300px;
     position: absolute;
-    top: 22%;
+    top: 19%;
     left: 10%;
 }
 
@@ -17,5 +17,5 @@
 .linha-sobre{
     background-color: var(--color-6);
     height: 1px;
-    transform: translateY(25px);
+    transform: translateY(15px);
 }
