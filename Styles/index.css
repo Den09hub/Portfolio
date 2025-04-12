@@ -3,8 +3,6 @@
   padding: 0;
   top: 0;
   font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: italic;
 }
 
 html{
@@ -27,6 +25,8 @@ html{
   top: 20px;
   left: 5%;
   cursor: pointer;
+  font-weight: 200;
+  font-style: italic;
 
   .color-name {
     color: var(--color-6);
@@ -45,7 +45,7 @@ html{
   z-index: 1;
 }
 
-.btn-contato {
+.link-item-home {
   background-color: var(--color-6);
   color: var(--color-0);
   border-radius: 10px;
@@ -59,9 +59,10 @@ html{
   border: none;
   display: inline-block;
   transition: 0.2s;
+  text-decoration: none;
 }
 
-.btn-contato:hover {
+.link-item-home:hover {
   background-color: var(--color-5);
   box-shadow: 0px 0px 8px var(--color-5);
   transform: scale(1.1);
@@ -79,11 +80,6 @@ html{
   transform: scale(1.2);
 }
 
-.link-item-home {
-  color: var(--color-0);
-  text-decoration: none;
-}
-
 /* PRINCIPAL */
 
 body {
@@ -93,105 +89,70 @@ body {
   min-height: 100%;
 }
 
+.apresentacao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 50px 10%;
+  gap: 40px;
+}
+
 .titulo-impactante {
-  color: var(--color-0);
   width: 400px;
-  position: absolute;
-  top: 40%;
-  left: 10%;
+  display: grid;
+  align-items: top;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .titulo-impactante h2 {
+  color: var(--color-0);
   font-size: 2rem;
-  position: absolute;
-  left: 5%;
   font-weight: 300;
 }
 
 .linha-inicial-inferior {
   background-color: var(--color-6);
   height: 1px;
-  transform: translateY(225px);
+  margin-top: 20px;
+  width: 100%;
 }
 
 .shape {
   background-color: var(--color-6);
-  width: 110%;
-  height: 120%;
+  width: 90%;
+  height: 112%;
   position: absolute;
-  top: -10%;
-  left: -5%;
+  top: -6%;
+  left: 5%;
   border-radius: 60% 100% 60% 100%;
+  z-index: 0;
 }
 
 .img-denyel {
+  position: relative;
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 27%;
-  left: 60%;
+  align-items: center;
 }
 
 .img-denyel img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  z-index: 1;
   position: relative;
+  z-index: 1;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {
   0% {
-    top: -10px;
+    transform: translateY(-10px);
   }
   100% {
-    top: 10px;
+    transform: translateY(10px);
   }
 }
-
-/* Responsividade */
-
-@media screen and (max-width: 1160px) {
-  .pagina-projeto-lanchonete {
-    position: absolute;
-    left: 2%;
-  }
-  .pagina-projeto-carros {
-    position: absolute;
-    left: 2%;
-  }
-  .pagina-projeto-lanchonete a {
-    position: absolute;
-    left: 52%;
-  }
-  .pagina-projeto-carros a {
-    position: absolute;
-    left: 52%;
-  }
-  .informacoes-projeto-lanchonete h3 {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .cabecalho {
-    height: 140px;
-  }
-  .menu-nav {
-    position: absolute;
-    top: 7%;
-    left: 55%;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .menu-nav {
-    display: none;
-  }
-}
-
-/* Parte Mobile */
 
 /* RODAPÉ */
 
@@ -209,4 +170,52 @@ footer{
 .rodape-direitos h6{
   font-weight: 300;
   color: var(--color-0);
+}
+
+/* Responsividade */
+
+@media (max-width: 768px){
+  .apresentacao{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .img-denyel img{
+    width: 220px;
+    height: 220px;
+  }
+
+  .nav-list{
+    flex-direction: column;
+    position: static;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .link-item-home{
+    position: static;
+    margin-top: 10px;
+  }
+
+  .titulo-impactante{
+    position: static;
+    margin: 40px auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .img-denyel{
+    position: static;
+    margin: 30px auto;
+  }
+
+  .img-denyel img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .shape{
+    width: 50%;
+    height: 60%;
+  }
 }
