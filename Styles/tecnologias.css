@@ -1,96 +1,42 @@
-/* TABELAS */
-
-.tabela-codar {
-  width: 25%;
-  height: 55%;
-  background-color: var(--color-4);
-  position: absolute;
-  top: 35%;
-  left: 12%;
-  border-radius: 10px;
+.bloco-tecnologias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 10%;
+  gap: 40px;
+  color: var(--color-0);
 }
 
-.tabela-relacionados {
-  width: 25%;
-  height: 55%;
-  background-color: var(--color-4);
-  position: absolute;
-  top: 35%;
-  right: 12%;
-  border-radius: 10px;
+.titulo-impactante {
+  font-style: italic;
+  font-size: 1.8rem;
 }
 
-.divisa-tabela {
-  width: 1px;
-  height: 300px;
+.linha-tecnologia {
   background-color: var(--color-6);
-  position: absolute;
-  top: 39%;
-  left: 50%;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 25px 0;
 }
 
-.titulo-codar {
-  color: var(--color-0);
-  position: absolute;
-  top: 25%;
-  left: 12.5%;
-  font-size: 1.6rem;
-  font-weight: 300;
-}
-
-.titulo-relacionados {
-  color: var(--color-0);
-  position: absolute;
-  top: 25%;
-  right: 23.5%;
-  font-size: 1.6rem;
-  font-weight: 300;
-}
-
-.lista-codar {
-  color: var(--color-0);
-  position: absolute;
-  top: 40%;
-  left: 15%;
-}
-
+.lista-codar,
 .lista-relacionados {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  gap: 15px;
+  font-size: 1.1rem;
+}
+
+.point {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--color-6);
   color: var(--color-0);
-  position: absolute;
-  top: 40%;
-  right: 30%;
+  width: fit-content;
+  transition: 0.2s;
 }
 
-/* PONTOS-COLOR */
-
-.point-python::marker {
-  color: #191cde;
-}
-
-.point-php::marker {
-  color: #591c9b;
-}
-
-.point-mysql::marker {
-  color: #215bd9;
-}
-
-.point-javascript::marker {
-  color: #d6ba1c;
-}
-
-.point-html::marker {
-  color: #d44c23;
-}
-
-.point-css::marker {
-  color: #24a4d2;
-}
-
-.point-figma::marker {
-  color: #db1f1f;
-}
-
-.point-github::marker {
-  color: #781fd8;
+.point:hover {
+  background-color: var(--color-5);
+  transform: scale(1.05);
 }

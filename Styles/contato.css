@@ -1,74 +1,46 @@
-/* ENVOLVENDO TODO O BLOCO PRINCIPAL */
-
-.bloco-contato{
-    position: absolute;
-    top: 25%;
-    left: 10%;
-}
-
-/* TÍTULO CONTATO */
-
-.bloco-contato h2{
+.bloco-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 40px;
     color: var(--color-0);
-    font-size: 1.6rem;
-    font-weight: 300;
 }
-
-/* LINHA DE SEPARAMENTO DO TÍTULO E OS LINKS */
-
-.linha-contato{
+  
+.linha-contato {
     background-color: var(--color-6);
-    width: 300%;
     height: 1px;
-    transform: translateY(25px);
+    width: 100%;
+    margin-top: 10px;
 }
-
-/* CONTATO EMAIL */
-
-.email-contato img{
-    position: absolute;
-    top: 80px;
-    width: 30%;
+  
+.itens-contato {
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
 }
-
-.email-contato h3{
+  
+.item-contato {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+  
+.item-contato img {
+    width: 30px;
+    height: 30px;
+}
+  
+.item-contato a {
     color: var(--color-0);
-    position: absolute;
-    top: 80px;
-    left: 40px;
+    text-decoration: none;
+    transition: 0.2s;
 }
-
-/* CONTATO LINKEDIN */
-
-.linkedin-contato img{
-    position: absolute;
-    top: 120px;
-    width: 30%;
-}
-
-.linkedin-contato a{
-    white-space: nowrap;
-    position: absolute;
-    top: 120px;
-    left: 40px;
-    font-size: 1.2rem;
+  
+.item-contato a:hover {
     color: var(--color-6);
+    transform: scale(1.05);
 }
-
-/* CONTATO GITHUB */
-
-.github-contato img{
-    position: absolute;
-    top: 155px;
-    left: -8px;
-    width: 45%;
-}
-
-.github-contato a{
-    color: var(--color-6);
-    white-space: nowrap;
-    position: absolute;
-    top: 162px;
-    left: 40px;
-    font-size: 1.2rem;
-}
+  

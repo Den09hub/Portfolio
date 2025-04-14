@@ -1,199 +1,85 @@
-/* CORPO DA PÁGINA PROJETOS PERSONALIZADO -> */
-
-.body-projetos{
+.body-projetos {
   background-color: var(--color-3);
   display: flex;
   flex-direction: column;
-  min-height: 180%;
+  min-height: 100vh;
+  padding: 60px 0;
 }
-
-/* FECHAMENTO <- */
 
 .titulo-projetos {
   color: var(--color-0);
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 300;
+  text-align: center;
+  margin-bottom: 1rem;
 }
-
-/* LINHAS DE SEPARAMENTO */
 
 .linha-projeto-superior {
   background-color: var(--color-6);
   width: 80%;
   height: 1px;
-  position: absolute;
-  top: 35%;
-  left: 10%;
+  margin: 0 auto 3rem auto;
 }
 
-/* PROJETO LANCHONETE */
+/* BLOCO DE PROJETOS GERAL */
 
-.img-projeto-lanchonete img {
-  width: 40%;
-  border-radius: 10px;
-}
-
-.bloco-projeto-lanchonete {
-  position: absolute;
-  top: 43%;
-  left: 12%;
-}
-
-.informacoes-projeto-lanchonete {
-  color: var(--color-0);
-  position: absolute;
-  left: 45%;
-}
-
-.informacoes-projeto-lanchonete h2 {
-  font-weight: 300;
-}
-
-.informacoes-projeto-lanchonete h3 {
-  font-size: 1.3vw;
-}
-
-.pagina-projeto-lanchonete {
-  position: absolute;
-  top: 200px;
-  right: 16%;
-  display: flex;
-  gap: 160px;
-}
-
-.direcao-projeto-lanchonete {
-  color: var(--color-0);
-}
-
-.direcao-projeto-lanchonete:hover {
-  color: var(--color-5);
-}
-
-.shape-lanchonete {
+section[class^="bloco-projeto"] {
+  position: relative;
   background-color: var(--color-2);
   width: 80%;
-  height: 41%;
+  margin: 2rem auto;
   border-radius: 10px;
-  position: absolute;
-  top: 40%;
-  left: 10%;
-}
-
-/* PROJETO FP-SELLECTION (CARROS) */
-
-.img-projeto-carros img {
-  width: 40%;
-  border-radius: 10px;
-}
-
-.bloco-projeto-carros {
-  position: absolute;
-  top: 89%;
-  left: 12%;
-}
-
-.informacoes-projeto-carros {
-  color: var(--color-0);
-  position: absolute;
-  left: 45%;
-}
-
-.informacoes-projeto-carros h2 {
-  font-weight: 300;
-}
-
-.informacoes-projeto-carros h3 {
-  font-size: 1.3vw;
-}
-
-.pagina-projeto-carros {
-  position: absolute;
-  top: 200px;
-  right: 16%;
+  padding: 2rem;
   display: flex;
-  gap: 160px;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.direcao-projeto-carros {
-  color: var(--color-0);
-}
+/* IMAGENS */
 
-.direcao-projeto-carros:hover {
-  color: var(--color-5);
-}
-
-.shape-carros {
-  background-color: var(--color-2);
-  width: 80%;
-  height: 41%;
-  border-radius: 10px;
-  position: absolute;
-  top: 86%;
-  left: 10%;
-}
-
-/* PROJETO GAMER VOUCHER */
-
-.img-projeto-games img {
-  width: 40%;
+section[class^="bloco-projeto"] .img-projeto-lanchonete img,
+section[class^="bloco-projeto"] .img-projeto-carros img,
+section[class^="bloco-projeto"] .img-projeto-games img {
+  width: 100%;
+  max-width: 350px;
   border-radius: 10px;
 }
 
-.bloco-projeto-games {
-  position: absolute;
-  top: 134%;
-  left: 12%;
-}
+/* INFORMAÇÕES DOS PROJETOS */
 
+.informacoes-projeto-lanchonete,
+.informacoes-projeto-carros,
 .informacoes-projeto-games {
+  flex: 1;
   color: var(--color-0);
-  position: absolute;
-  left: 45%;
 }
 
+.informacoes-projeto-lanchonete h2,
+.informacoes-projeto-carros h2,
 .informacoes-projeto-games h2 {
   font-weight: 300;
+  margin-bottom: 0.5rem;
 }
 
-.informacoes-projeto-games h3 {
-  font-size: 1.3vw;
+.informacoes-projeto-lanchonete p,
+.informacoes-projeto-carros p,
+.informacoes-projeto-games p {
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
-.pagina-projeto-games {
-  position: absolute;
-  top: 200px;
-  right: 16%;
+/* FERRAMENTAS */
+
+.lista-projeto-lanchonete,
+.lista-projeto-carros,
+.lista-projeto-games {
   display: flex;
-  gap: 160px;
-}
-
-.direcao-projeto-games {
+  gap: 1rem;
+  margin: 1rem 0;
   color: var(--color-0);
-}
-
-.direcao-projeto-games:hover {
-  color: var(--color-5);
-}
-
-.shape-games {
-  background-color: var(--color-2);
-  width: 80%;
-  height: 40%;
-  border-radius: 10px;
-  position: absolute;
-  top: 132%;
-  left: 10%;
-}
-
-/* FERRAMENTAS USADAS NO PROJETO */
-
-.lista-projeto-lanchonete {
-  color: var(--color-0);
-  display: flex;
-  gap: 30px;
+  list-style: disc inside;
 }
 
 .use-projeto-html::marker {
@@ -208,14 +94,29 @@
   color: #d6ba1c;
 }
 
-.lista-projeto-carros {
+/* LINKS */
+
+.direcao-projeto-lanchonete,
+.direcao-projeto-carros,
+.direcao-projeto-games {
   color: var(--color-0);
-  display: flex;
-  gap: 30px;
+  text-decoration: underline;
+  transition: color 0.3s;
 }
 
-.lista-projeto-games {
-  color: var(--color-0);
-  display: flex;
-  gap: 30px;
+.direcao-projeto-lanchonete:hover,
+.direcao-projeto-carros:hover,
+.direcao-projeto-games:hover {
+  color: var(--color-5);
 }
+
+/* FOOTER */
+
+/* .rodape-direitos {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: var(--color-2);
+  color: var(--color-0);
+  margin-top: 4rem;
+} */
+
