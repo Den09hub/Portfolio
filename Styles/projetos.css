@@ -1,29 +1,29 @@
-.body-projetos {
+.body-projetos{
   background-color: var(--color-3);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 60px 0;
 }
 
-.titulo-projetos {
+.titulo-projetos{
   color: var(--color-0);
   font-size: 2rem;
   font-weight: 300;
   text-align: center;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.linha-projeto-superior {
+.linha-projeto-superior{
   background-color: var(--color-6);
   width: 80%;
   height: 1px;
   margin: 0 auto 3rem auto;
 }
 
-/* BLOCO DE PROJETOS GERAL */
+/* MEUS PROJETOS */
 
-section[class^="bloco-projeto"] {
+section[class^="bloco-projeto"]{
   position: relative;
   background-color: var(--color-2);
   width: 80%;
@@ -37,11 +37,9 @@ section[class^="bloco-projeto"] {
   justify-content: space-between;
 }
 
-/* IMAGENS */
-
 section[class^="bloco-projeto"] .img-projeto-lanchonete img,
 section[class^="bloco-projeto"] .img-projeto-carros img,
-section[class^="bloco-projeto"] .img-projeto-games img {
+section[class^="bloco-projeto"] .img-projeto-games img{
   width: 100%;
   max-width: 350px;
   border-radius: 10px;
@@ -70,31 +68,18 @@ section[class^="bloco-projeto"] .img-projeto-games img {
   line-height: 1.4;
 }
 
-/* FERRAMENTAS */
-
 .lista-projeto-lanchonete,
 .lista-projeto-carros,
 .lista-projeto-games {
   display: flex;
   gap: 1rem;
   margin: 1rem 0;
-  color: var(--color-0);
   list-style: disc inside;
 }
 
-.use-projeto-html::marker {
-  color: #d44c23;
-}
-
-.use-projeto-css::marker {
-  color: #24a4d2;
-}
-
-.use-projeto-javascript::marker {
-  color: #d6ba1c;
-}
-
-/* LINKS */
+.use-projeto-html::marker {color: #d44c23;}
+.use-projeto-css::marker {color: #24a4d2;}
+.use-projeto-javascript::marker {color: #d6ba1c;}
 
 .direcao-projeto-lanchonete,
 .direcao-projeto-carros,
@@ -109,14 +94,3 @@ section[class^="bloco-projeto"] .img-projeto-games img {
 .direcao-projeto-games:hover {
   color: var(--color-5);
 }
-
-/* FOOTER */
-
-/* .rodape-direitos {
-  text-align: center;
-  padding: 2rem 0;
-  background-color: var(--color-2);
-  color: var(--color-0);
-  margin-top: 4rem;
-} */
-
