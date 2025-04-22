@@ -22,3 +22,482 @@
     --color-5: #82a0aa;
     --color-6: #a3cfcd;
 }
+
+/* -------------------------- */
+
+* {
+margin: 0;
+padding: 0;
+}
+  
+html{
+    height: 100%;
+    min-height: 100%;
+}
+  
+/* CABEÇALHO - START*/
+  
+.cabecalho {
+    background-color: var(--color-2);
+    height: 100px;
+}
+  
+.logo-name {
+    color: var(--color-0);
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    cursor: pointer;
+    font-style: italic;
+}
+  
+.color-name {
+    color: var(--color-6);
+}
+  
+.nav-list {
+    display: flex;
+    position: absolute;
+    top: 33px;
+    right: 12%;
+    gap: 35px;
+    list-style-type: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.link-item-home {
+    background-color: var(--color-6);
+    color: var(--color-0);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    position: absolute;
+    top: -8px;
+    left: 430px;
+    border: none;
+    display: inline-block;
+    transition: 0.2s;
+    text-decoration: none;
+}
+  
+.link-item-home:hover {
+    background-color: var(--color-5);
+    box-shadow: 0px 0px 8px var(--color-5);
+    transform: scale(1.1);
+}
+  
+.link-item {
+    color: var(--color-0);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+  
+.link-item:hover {
+    color: var(--color-6);
+    transform: scale(1.2);
+}
+  
+/* CABEÇALHO - END */
+  
+/* PÁGINA HOME - START */
+  
+body {
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+  
+.apresentacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px 10%;
+    gap: 40px;
+}
+  
+.titulo-impactante {
+    width: 400px;
+    display: grid;
+    align-items: top;
+    font-style: italic;
+}
+  
+.titulo-impactante h2 {
+    color: var(--color-0);
+    font-size: 2rem;
+}
+  
+.linha-inicial-inferior {
+    background-color: var(--color-6);
+    height: 1px;
+    margin-top: 20px;
+    width: 100%;
+}
+  
+.shape {
+    background-color: var(--color-6);
+    width: 90%;
+    height: 112%;
+    position: absolute;
+    top: -6%;
+    left: 5%;
+    border-radius: 60% 100% 60% 100%;
+    z-index: 0;
+}
+  
+.img-denyel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.img-denyel img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+  
+/* PÁGINA HOME - END */
+
+/* PÁGINA SOBRE MIM - START*/
+
+.texto-sobre{
+    color: var(--color-0);
+    max-width: 600px;
+    font-style: italic;
+}
+
+.texto-sobre h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.linha-sobre{
+    background-color: var(--color-6);
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* PÁGINA SOBRE MIM - END*/
+
+/* PÁGINA TECNOLOGIAS - START */
+
+.bloco-tecnologias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 10%;
+    gap: 40px;
+    color: var(--color-0);
+}
+  
+.titulo-impactante {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+  
+.linha-tecnologia {
+    background-color: var(--color-6);
+    height: 1px;
+    width: 100%;
+    margin: 10px 0 25px 0;
+}
+  
+.lista-codar,
+.lista-relacionados {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+  
+.point {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--color-6);
+    color: var(--color-0);
+    width: fit-content;
+    transition: 0.2s;
+}
+  
+.point:hover {
+    background-color: var(--color-5);
+    transform: scale(1.05);
+}
+
+/* PÁGINA TECNOLOGIAS - END */
+
+/* PÁGINA PROJETOS - START */
+
+.body-projetos{
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.titulo-projetos{
+    color: var(--color-0);
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+  
+.linha-projeto-superior{
+    background-color: var(--color-6);
+    width: 80%;
+    height: 1px;
+    margin: 0 auto 3rem auto;
+}
+  
+/* MEUS PROJETOS */
+  
+section[class^="bloco-projeto"]{
+    position: relative;
+    background-color: var(--color-2);
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+section[class^="bloco-projeto"] .img-projeto-lanchonete img,
+section[class^="bloco-projeto"] .img-projeto-carros img,
+section[class^="bloco-projeto"] .img-projeto-games img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+  
+/* INFORMAÇÕES DOS PROJETOS */
+  
+.informacoes-projeto-lanchonete,
+.informacoes-projeto-carros,
+.informacoes-projeto-games {
+    flex: 1;
+    color: var(--color-0);
+}
+  
+.informacoes-projeto-lanchonete h2,
+.informacoes-projeto-carros h2,
+.informacoes-projeto-games h2 {
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+  
+.informacoes-projeto-lanchonete p,
+.informacoes-projeto-carros p,
+.informacoes-projeto-games p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+  
+.lista-projeto-lanchonete,
+.lista-projeto-carros,
+.lista-projeto-games {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    list-style: disc inside;
+}
+  
+.use-projeto-html::marker {color: #d44c23;}
+.use-projeto-css::marker {color: #24a4d2;}
+.use-projeto-javascript::marker {color: #d6ba1c;}
+  
+.direcao-projeto-lanchonete,
+.direcao-projeto-carros,
+.direcao-projeto-games {
+    color: var(--color-0);
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+  
+.direcao-projeto-lanchonete:hover,
+.direcao-projeto-carros:hover,
+.direcao-projeto-games:hover {
+    color: var(--color-5);
+}
+
+/* PÁGINA PROJETOS - END */
+
+/* PÁGINA CONTATO - START */
+
+.bloco-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 40px;
+    color: var(--color-0);
+}
+  
+.linha-contato {
+    background-color: var(--color-6);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+  
+.itens-contato {
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.item-contato {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+  
+.item-contato img {
+    width: 30px;
+    height: 30px;
+}
+  
+.item-contato a {
+    color: var(--color-0);
+    text-decoration: none;
+    transition: 0.2s;
+}
+  
+.item-contato a:hover {
+    color: var(--color-6);
+    transform: scale(1.05);
+}
+
+/* PÁGINA CONTATO - END */
+  
+/* ANIMAÇÃO PERFIL - START */
+  
+@keyframes flutuar {
+    0% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+}
+  
+/* ANIMAÇÃO PERFIL - END */
+  
+/* RODAPÉ - START*/
+  
+footer{
+    margin-top: auto;
+}
+  
+.rodape-direitos {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: var(--color-2);
+    color: var(--color-0);
+    margin-top: 4rem;
+}
+  
+/* RODAPÉ - END*/
+  
+/* RESPONSIVIDADE - START*/
+  
+@media (max-width: 768px){
+  
+    /* Página Home */
+  
+    .cabecalho{
+      height: 350px;
+    }
+    .apresentacao{
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .img-denyel img{
+      width: 220px;
+      height: 220px;
+    }
+  
+    .nav-list{
+      flex-direction: column;
+      position: static;
+      align-items: center;
+      gap: 15px;
+      margin-top: 110px;
+    }
+  
+    .link-item-home{
+      position: static;
+      margin-top: 10px;
+    }
+  
+    .titulo-impactante{
+      position: static;
+      margin: 40px auto;
+      text-align: center;
+      width: 90%;
+      margin-top: 10px;
+    }
+  
+    .img-denyel{
+      position: static;
+      margin: 30px auto;
+      margin-top: 15px;
+    }
+  
+    .img-denyel img{
+      width: 250px;
+      height: 250px;
+    }
+  
+    .shape{
+      width: 50%;
+      height: 50%;
+      top: 90%;
+      left: 25%;
+    }
+  
+    /* Página sobre mim */
+  
+    .texto-sobre{
+      max-width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    /* Página tecnologias */
+    .bloco-tecnologias {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .point {
+      margin: 0 auto;
+    }
+  
+}
+  
+/* RESPONSIVIDADE - END*/
