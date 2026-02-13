@@ -193,6 +193,17 @@ body {
     margin-top: 20px;
 }
 
+.shape-sobre-mim {
+    background-color: var(--color-6);
+    width: 90%;
+    height: 112%;
+    position: absolute;
+    top: -6%;
+    left: 5%;
+    border-radius: 60% 100% 60% 100%;
+    z-index: 0;
+}
+
 /* PÁGINA SOBRE MIM - END*/
 
 /* PÁGINA TECNOLOGIAS - START */
@@ -476,7 +487,7 @@ footer{
     .shape{
       width: 50%;
       height: 50%;
-      top: 90%;
+      top: 95%;
       left: 25%;
     }
   
@@ -486,6 +497,13 @@ footer{
       max-width: 90%;
       margin: 0 auto;
       text-align: center;
+    }
+
+    .shape-sobre-mim{
+      width: 50%;
+      height: 50%;
+      top: 130%;
+      left: 25%;
     }
   
     /* Página tecnologias */
