@@ -1,2 +1,5 @@
-let esquerdaAnima = document.querySelectorAll(".vir-esquerda")
-let direitaAnima = document.querySelectorAll(".vir-direita")
+let esquerdaAnima = document.querySelector(".lista-codar")
+esquerdaAnima.classList.add("active")
+
+let direitaAnima = document.querySelector(".lista-relacionados")
+direitaAnima.classList.add("active")

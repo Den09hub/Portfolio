@@ -253,6 +253,28 @@ body {
 
 /* PÁGINA TECNOLOGIAS - END */
 
+.lista-codar {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.lista-codar.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.lista-relacionados {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.lista-relacionados.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 /* PÁGINA PROJETOS - START */
 
 .body-projetos{
